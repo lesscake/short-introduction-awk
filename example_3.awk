@@ -4,7 +4,7 @@ BEGIN {
 
 {
   count++;
-  if (count < 5) {
-    print $0
+  if (count <= 3) {
+    print $0;
   } 
 }
